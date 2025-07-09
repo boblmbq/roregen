@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:add_features",
+	"biomes": [
+		"minecraft:jungle",
+		"minecraft:sparse_jungle",
+		"minecraft:bamboo_jungle"
+	],
+	"features": ["realoregen:jungle_diamond_ore_placed"],
+	"step": "underground_ores"
+}
