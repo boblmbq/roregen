@@ -1,11 +1,11 @@
 {
-	"feature": "realoregen:ore_diamond_large",
+	"feature": "realoregen:ore_gold_small",
 	"placement": [
 		{
 			"type": "minecraft:rarity_filter",
-			"chance": 100
+			"chance": 4
 		},
-		{ "type": "minecraft:count", "count": 256 },
+		{ "type": "minecraft:count", "count": 15 },
 		{
 			"type": "minecraft:in_square"
 		},
@@ -14,7 +14,7 @@
 			"height": {
 				"type": "minecraft:trapezoid",
 				"max_inclusive": {
-					"absolute": 319
+					"absolute": 32
 				},
 				"min_inclusive": {
 					"absolute": -64

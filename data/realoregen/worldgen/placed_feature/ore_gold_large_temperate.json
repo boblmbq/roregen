@@ -1,0 +1,28 @@
+{
+	"feature": "realoregen:ore_gold_large",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 10
+		},
+		{ "type": "minecraft:count", "count": 1 },
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"max_inclusive": {
+					"absolute": -48
+				},
+				"min_inclusive": {
+					"absolute": -64
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}
