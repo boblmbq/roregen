@@ -1,10 +1,7 @@
 {
 	"feature": "realoregen:ore_iron_small",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 4
-		},
+
 		{ "type": "minecraft:count", "count": 1 },
 		{
 			"type": "minecraft:in_square"

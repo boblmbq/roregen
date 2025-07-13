@@ -1,10 +1,6 @@
 {
 	"feature": "realoregen:ore_redstone_large",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 4
-		},
 		{ "type": "minecraft:count", "count": 1 },
 		{
 			"type": "minecraft:in_square"

@@ -1,10 +1,7 @@
 {
 	"feature": "realoregen:ore_lapis_small",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 3
-		},
+
 		{ "type": "minecraft:count", "count": 3 },
 		{
 			"type": "minecraft:in_square"

@@ -1,11 +1,7 @@
 {
 	"feature": "realoregen:ore_gold_large",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 7
-		},
-		{ "type": "minecraft:count", "count": 2 },
+		{ "type": "minecraft:count", "count": 1 },
 		{
 			"type": "minecraft:in_square"
 		},

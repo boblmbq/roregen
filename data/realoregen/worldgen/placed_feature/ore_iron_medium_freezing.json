@@ -1,11 +1,8 @@
 {
 	"feature": "realoregen:ore_iron_medium",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 4
-		},
-		{ "type": "minecraft:count", "count": 65 },
+
+		{ "type": "minecraft:count", "count": 3 },
 		{
 			"type": "minecraft:in_square"
 		},
