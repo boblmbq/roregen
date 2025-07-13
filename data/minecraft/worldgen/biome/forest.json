@@ -36,11 +36,7 @@
 		["minecraft:monster_room", "minecraft:monster_room_deep"],
 		[],
 		[],
-		[
-			"realoregen:ore_lapis_large_freezing",
-			"realoregen:ore_lapis_medium_freezing",
-			"realoregen:ore_lapis_small_freezing"
-		],
+		["realoregen:ore_copper_small_temperate"],
 		[],
 		["minecraft:spring_water", "minecraft:spring_lava"],
 		[
