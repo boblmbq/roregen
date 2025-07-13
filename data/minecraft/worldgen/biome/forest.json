@@ -37,9 +37,9 @@
 		[],
 		[],
 		[
-			"realoregen:ore_gold_small_temperate",
-			"realoregen:ore_gold_large_temperate",
-			"realoregen:ore_gold_medium_temperate"
+			"realoregen:ore_lapis_large_freezing",
+			"realoregen:ore_lapis_medium_freezing",
+			"realoregen:ore_lapis_small_freezing"
 		],
 		[],
 		["minecraft:spring_water", "minecraft:spring_lava"],
