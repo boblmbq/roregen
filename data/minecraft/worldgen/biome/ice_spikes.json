@@ -4,7 +4,8 @@
 		"minecraft:cave_extra_underground",
 		"minecraft:canyon"
 	],
-	"downfall": 0.4,
+	"creature_spawn_probability": 0.07,
+	"downfall": 0.5,
 	"effects": {
 		"fog_color": 12638463,
 		"mood_sound": {
@@ -14,7 +15,7 @@
 			"tick_delay": 6000
 		},
 		"music_volume": 1.0,
-		"sky_color": 7907327,
+		"sky_color": 8364543,
 		"water_color": 4159204,
 		"water_fog_color": 329011
 	},
@@ -23,7 +24,7 @@
 		["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
 		["minecraft:amethyst_geode"],
 		["minecraft:monster_room", "minecraft:monster_room_deep"],
-		[],
+		["minecraft:ice_spike", "minecraft:ice_patch"],
 		[],
 		[
 			"minecraft:ore_dirt",
@@ -39,40 +40,38 @@
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel",
-			"realoregen:ore_coal_large_temperate",
-			"realoregen:ore_coal_medium_temperate",
-			"realoregen:ore_coal_small_temperate",
-			"realoregen:ore_copper_small_temperate",
-			"realoregen:ore_diamond_large_temperate",
-			"realoregen:ore_diamond_medium_temperate",
-			"realoregen:ore_diamond_small_temperate",
-			"realoregen:ore_emerald_small_temperate",
-			"realoregen:ore_gold_large_temperate",
-			"realoregen:ore_gold_medium_temperate",
-			"realoregen:ore_gold_small_temperate",
-			"realoregen:ore_iron_large_temperate",
-			"realoregen:ore_iron_medium_temperate",
-			"realoregen:ore_iron_small_temperate",
-			"realoregen:ore_lapis_large_temperate",
-			"realoregen:ore_lapis_medium_temperate",
-			"realoregen:ore_lapis_small_temperate",
-			"realoregen:ore_redstone_large_temperate",
-			"realoregen:ore_redstone_medium_temperate",
-			"realoregen:ore_redstone_small_temperate"
+			"realoregen:ore_coal_large_freezing",
+			"realoregen:ore_coal_medium_freezing",
+			"realoregen:ore_coal_small_freezing",
+			"realoregen:ore_copper_small_freezing",
+			"realoregen:ore_diamond_large_freezing",
+			"realoregen:ore_diamond_medium_freezing",
+			"realoregen:ore_diamond_small_freezing",
+			"realoregen:ore_emerald_small_freezing",
+			"realoregen:ore_gold_large_freezing",
+			"realoregen:ore_gold_medium_freezing",
+			"realoregen:ore_gold_small_freezing",
+			"realoregen:ore_iron_large_freezing",
+			"realoregen:ore_iron_medium_freezing",
+			"realoregen:ore_iron_small_freezing",
+			"realoregen:ore_lapis_large_freezing",
+			"realoregen:ore_lapis_medium_freezing",
+			"realoregen:ore_lapis_small_freezing",
+			"realoregen:ore_redstone_large_freezing",
+			"realoregen:ore_redstone_medium_freezing",
+			"realoregen:ore_redstone_small_freezing"
 		],
 		[],
 		["minecraft:spring_water", "minecraft:spring_lava"],
 		[
 			"minecraft:glow_lichen",
-			"minecraft:patch_tall_grass_2",
-			"minecraft:patch_sunflower",
-			"minecraft:trees_plains",
-			"minecraft:flower_plains",
-			"minecraft:patch_grass_plain",
-			"minecraft:patch_sugar_cane",
+			"minecraft:trees_snowy",
+			"minecraft:flower_default",
+			"minecraft:patch_grass_badlands",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
-			"minecraft:patch_pumpkin"
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_sugar_cane"
 		],
 		["minecraft:freeze_top_layer"]
 	],
@@ -90,38 +89,14 @@
 		"axolotls": [],
 		"creature": [
 			{
-				"type": "minecraft:sheep",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 12
-			},
-			{
-				"type": "minecraft:pig",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 10
-			},
-			{
-				"type": "minecraft:chicken",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 10
-			},
-			{
-				"type": "minecraft:cow",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 8
-			},
-			{
-				"type": "minecraft:horse",
-				"maxCount": 6,
-				"minCount": 2,
-				"weight": 5
-			},
-			{
-				"type": "minecraft:donkey",
+				"type": "minecraft:rabbit",
 				"maxCount": 3,
+				"minCount": 2,
+				"weight": 10
+			},
+			{
+				"type": "minecraft:polar_bear",
+				"maxCount": 2,
 				"minCount": 1,
 				"weight": 1
 			}
@@ -150,7 +125,7 @@
 				"type": "minecraft:skeleton",
 				"maxCount": 4,
 				"minCount": 4,
-				"weight": 100
+				"weight": 20
 			},
 			{
 				"type": "minecraft:creeper",
@@ -175,6 +150,12 @@
 				"maxCount": 1,
 				"minCount": 1,
 				"weight": 5
+			},
+			{
+				"type": "minecraft:stray",
+				"maxCount": 4,
+				"minCount": 4,
+				"weight": 80
 			}
 		],
 		"underground_water_creature": [
@@ -188,5 +169,5 @@
 		"water_ambient": [],
 		"water_creature": []
 	},
-	"temperature": 0.8
+	"temperature": 0.0
 }

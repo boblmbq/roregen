@@ -70,10 +70,10 @@
 			"minecraft:pale_garden_vegetation",
 			"minecraft:pale_moss_patch",
 			"minecraft:pale_garden_flowers",
-			"minecraft:patch_sugar_cane",
 			"minecraft:flower_pale_garden",
 			"minecraft:patch_grass_forest",
-			"minecraft:patch_pumpkin"
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_sugar_cane"
 		],
 		["minecraft:freeze_top_layer"]
 	],

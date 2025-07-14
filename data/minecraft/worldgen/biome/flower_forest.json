@@ -79,10 +79,10 @@
 			"minecraft:trees_flower_forest",
 			"minecraft:flower_flower_forest",
 			"minecraft:patch_grass_badlands",
-			"minecraft:patch_sugar_cane",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
-			"minecraft:patch_pumpkin"
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_sugar_cane"
 		],
 		["minecraft:freeze_top_layer"]
 	],

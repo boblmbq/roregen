@@ -4,7 +4,7 @@
 		"minecraft:cave_extra_underground",
 		"minecraft:canyon"
 	],
-	"downfall": 0.9,
+	"downfall": 0.5,
 	"effects": {
 		"fog_color": 12638463,
 		"mood_sound": {
@@ -19,13 +19,13 @@
 					"max_delay": 24000,
 					"min_delay": 12000,
 					"replace_current_music": false,
-					"sound": "minecraft:music.overworld.bamboo_jungle"
+					"sound": "minecraft:music.overworld.lush_caves"
 				},
 				"weight": 1
 			}
 		],
 		"music_volume": 1.0,
-		"sky_color": 7842047,
+		"sky_color": 8103167,
 		"water_color": 4159204,
 		"water_fog_color": 329011
 	},
@@ -50,41 +50,39 @@
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel",
-			"realoregen:ore_coal_large_warm",
-			"realoregen:ore_coal_medium_warm",
-			"realoregen:ore_coal_small_warm",
-			"realoregen:ore_copper_small_warm",
-			"realoregen:ore_diamond_large_warm",
-			"realoregen:ore_diamond_medium_warm",
-			"realoregen:ore_diamond_small_warm",
-			"realoregen:ore_emerald_small_warm",
-			"realoregen:ore_gold_large_warm",
-			"realoregen:ore_gold_medium_warm",
-			"realoregen:ore_gold_small_warm",
-			"realoregen:ore_iron_large_warm",
-			"realoregen:ore_iron_medium_warm",
-			"realoregen:ore_iron_small_warm",
-			"realoregen:ore_lapis_large_warm",
-			"realoregen:ore_lapis_medium_warm",
-			"realoregen:ore_lapis_small_warm",
-			"realoregen:ore_redstone_large_warm",
-			"realoregen:ore_redstone_medium_warm",
-			"realoregen:ore_redstone_small_warm"
+			"realoregen:ore_coal_large_temperate",
+			"realoregen:ore_coal_medium_temperate",
+			"realoregen:ore_coal_small_temperate",
+			"realoregen:ore_copper_small_temperate",
+			"realoregen:ore_diamond_large_temperate",
+			"realoregen:ore_diamond_medium_temperate",
+			"realoregen:ore_diamond_small_temperate",
+			"realoregen:ore_emerald_small_temperate",
+			"realoregen:ore_gold_large_temperate",
+			"realoregen:ore_gold_medium_temperate",
+			"realoregen:ore_gold_small_temperate",
+			"realoregen:ore_iron_large_temperate",
+			"realoregen:ore_iron_medium_temperate",
+			"realoregen:ore_iron_small_temperate",
+			"realoregen:ore_lapis_large_temperate",
+			"realoregen:ore_lapis_medium_temperate",
+			"realoregen:ore_lapis_small_temperate",
+			"realoregen:ore_redstone_large_temperate",
+			"realoregen:ore_redstone_medium_temperate",
+			"realoregen:ore_redstone_small_temperate"
 		],
 		[],
 		["minecraft:spring_water", "minecraft:spring_lava"],
 		[
 			"minecraft:glow_lichen",
-			"minecraft:bamboo",
-			"minecraft:bamboo_vegetation",
-			"minecraft:flower_warm",
-			"minecraft:patch_grass_jungle",
-			"minecraft:brown_mushroom_normal",
-			"minecraft:red_mushroom_normal",
-			"minecraft:patch_pumpkin",
-			"minecraft:patch_sugar_cane",
-			"minecraft:vines",
-			"minecraft:patch_melon"
+			"minecraft:patch_tall_grass_2",
+			"minecraft:lush_caves_ceiling_vegetation",
+			"minecraft:cave_vines",
+			"minecraft:lush_caves_clay",
+			"minecraft:lush_caves_vegetation",
+			"minecraft:rooted_azalea_tree",
+			"minecraft:spore_blossom",
+			"minecraft:classic_vines_cave_feature"
 		],
 		["minecraft:freeze_top_layer"]
 	],
@@ -99,51 +97,15 @@
 				"weight": 10
 			}
 		],
-		"axolotls": [],
-		"creature": [
+		"axolotls": [
 			{
-				"type": "minecraft:sheep",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 12
-			},
-			{
-				"type": "minecraft:pig",
-				"maxCount": 4,
+				"type": "minecraft:axolotl",
+				"maxCount": 6,
 				"minCount": 4,
 				"weight": 10
-			},
-			{
-				"type": "minecraft:chicken",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 10
-			},
-			{
-				"type": "minecraft:cow",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 8
-			},
-			{
-				"type": "minecraft:chicken",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 10
-			},
-			{
-				"type": "minecraft:parrot",
-				"maxCount": 2,
-				"minCount": 1,
-				"weight": 40
-			},
-			{
-				"type": "minecraft:panda",
-				"maxCount": 2,
-				"minCount": 1,
-				"weight": 80
 			}
 		],
+		"creature": [],
 		"misc": [],
 		"monster": [
 			{
@@ -193,12 +155,6 @@
 				"maxCount": 1,
 				"minCount": 1,
 				"weight": 5
-			},
-			{
-				"type": "minecraft:ocelot",
-				"maxCount": 1,
-				"minCount": 1,
-				"weight": 2
 			}
 		],
 		"underground_water_creature": [
@@ -209,8 +165,15 @@
 				"weight": 10
 			}
 		],
-		"water_ambient": [],
+		"water_ambient": [
+			{
+				"type": "minecraft:tropical_fish",
+				"maxCount": 8,
+				"minCount": 8,
+				"weight": 25
+			}
+		],
 		"water_creature": []
 	},
-	"temperature": 0.95
+	"temperature": 0.5
 }
