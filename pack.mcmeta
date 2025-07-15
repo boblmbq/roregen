@@ -1,6 +1,6 @@
 {
 	"pack": {
 		"pack_format": 61,
-		"description": "A pack for Minecraft 1.21.4 that makes the spawn of diamonds in forest mega large."
+		"description": "A datapack for Minecraft 1.21.4 that makes the generation of specific ores in specific biomes rarer or more frequent."
 	}
 }
